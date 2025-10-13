@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="very_light">#E4FFFE</color>
+    <color name="light_turquoise">#B4ECE6</color>
+    <color name="dark_turquoise">#0E4441</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="colorSGDefault">#283428</color>
+    <color name="green_100">#DFEFDF</color>
+    <color name="turquoise">#40E0D0</color>
+
+</resources>

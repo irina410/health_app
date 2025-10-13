@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthApplication</string>
+    <string name="title">LifeSync</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="profile">Профиль</string>
+    <string name="notifications">Уведомления</string>
+    <string name="guide">Справочник болезней</string>
+    <string name="monitoring">Мониторинг</string>
+    <string name="support">Связаться со службой поддержки</string>
+    <string name="patients">Пациенты</string>
+    <string name="input_email">Почта</string>
+    <string name="input_password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="sign_in_app">Войти</string>
+    <string name="sign_up_app">Зарегистрироваться</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="groups">Вы относитесь к группе:</string>
+    <string name="patient">Пациент</string>
+    <string name="doctor">Работник медицинского учреждения</string>
+    <string name="surname">Фамилия:</string>
+    <string name="name">Имя:</string>
+    <string name="patronymic">Отчество:</string>
+    <string name="card">Номер мед. карты:</string>
+    <string name="theme">Тема сообщения:</string>
+    <string name="what_message">Содержание сообщения:</string>
+    <string name="text_notifications">Здесь находятся ваши уведомления!</string>
+    <string name="diseases">Болезни:</string>
+    <string name="fio">ФИО:</string>
+
+</resources>

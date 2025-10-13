@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/acc"
+        android:title="Профиль" />
+    <item
+        android:id="@+id/menu_diseases"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Справочник" />
+    <item
+        android:id="@+id/menu_patients"
+        android:icon="?android:attr/listChoiceIndicatorSingle"
+        android:title="Пациенты" />
+</menu>

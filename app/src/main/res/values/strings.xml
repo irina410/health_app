@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthApplication</string>
+    <string name="title">Medical Card</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="guide">Directory of diseases</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="support">Contact customer support</string>
+    <string name="patients">Patients</string>
+    <string name="input_email">Email</string>
+    <string name="input_password">Password</string>
+    <string name="confirm_password">Confirm the password</string>
+    <string name="sign_in_app">Sign in</string>
+    <string name="sign_up_app">Sign up</string>
+    <string name="confirm">Confirm</string>
+    <string name="groups">You belong to a group:</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">An employee of a medical institution</string>
+    <string name="surname">Surname:</string>
+    <string name="name">Name:</string>
+    <string name="patronymic">Patronymic:</string>
+    <string name="card">Мedical card number:</string>
+    <string name="theme">Theme of message:</string>
+    <string name="what_message">The content of the message:</string>
+    <string name="text_notifications">Here are your notifications!</string>
+    <string name="diseases">Diseases:</string>
+    <string name="fio">Name:</string>
+
+</resources>
