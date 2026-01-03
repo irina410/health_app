@@ -31,6 +31,21 @@
         android:layout_height="wrap_content"
         android:text="Войти"
         android:padding="12dp"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/link_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет аккаунта? Зарегистрироваться"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"/>
 
 </LinearLayout>

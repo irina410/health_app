@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -33,27 +34,41 @@ public class SignInFragment extends Fragment {
         EditText email = v.findViewById(R.id.email);
         EditText password = v.findViewById(R.id.password);
         Button button = v.findViewById(R.id.go_to_main);
+        TextView linkSignUp = v.findViewById(R.id.link_sign_up);
 
         vm = new ViewModelProvider(this, ServiceLocator.provideSignInFactory())
                 .get(SignInViewModel.class);
 
         vm.getState().observe(getViewLifecycleOwner(), state -> {
             button.setEnabled(!state.loading);
+            if (state.loading) {
+                button.setText("Вход...");
+            } else {
+                button.setText("Войти");
+            }
+            
             if (state.message != null) {
                 Toast.makeText(getContext(), state.message, Toast.LENGTH_SHORT).show();
             }
             if (state.success) {
-                Intent intent = new Intent(requireContext(), MainActivity.class);
-                startActivity(intent);
-                requireActivity().finish();
+                // Показываем аутентифицированный UI без перезапуска Activity
+                if (getActivity() instanceof MainActivity) {
+                    ((MainActivity) getActivity()).showAuthenticatedUi();
+                }
             }
         });
-
 
         button.setOnClickListener(view ->
                 vm.processIntent(new SignInIntent.Submit(
                         email.getText().toString().trim(),
                         password.getText().toString().trim()
                 )));
+
+        linkSignUp.setOnClickListener(view -> {
+            // Переход к экрану регистрации
+            getParentFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new com.example.healthapplication.presentation.signup.SignUpFragment())
+                    .commit();
+        });
     }
 }

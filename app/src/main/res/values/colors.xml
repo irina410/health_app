@@ -2,15 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="very_light">#E4FFFE</color>
-    <color name="light_turquoise">#B4ECE6</color>
-    <color name="dark_turquoise">#0E4441</color>
+    <!-- Pastel palette -->
+    <color name="very_light">#F7F7FB</color>
+    <color name="light_turquoise">#CDEDEA</color>
+    <color name="dark_turquoise">#4A5568</color>
     <color name="green_200">#A5D6A7</color>
     <color name="green_500">#4CAF50</color>
     <color name="green_700">#388E3C</color>
     <color name="red_700">#D32F2F</color>
     <color name="colorSGDefault">#283428</color>
     <color name="green_100">#DFEFDF</color>
-    <color name="turquoise">#40E0D0</color>
+    <color name="turquoise">#A7E8DC</color>
+
+    <!-- App accents -->
+    <color name="pastel_primary">#A7E8DC</color>
+    <color name="pastel_primary_dark">#7AC8B9</color>
+    <color name="pastel_accent">#F7C8D0</color>
+    <color name="pastel_error">#F2A4A4</color>
 
 </resources>

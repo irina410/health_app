@@ -24,6 +24,12 @@ public class AuthRepository {
                 .addOnFailureListener(e -> cb.onError(e.getMessage()));
     }
 
+    public void signUp(String email, String password, AuthCallback cb) {
+        auth.createUserWithEmailAndPassword(email, password)
+                .addOnSuccessListener(result -> cb.onSuccess())
+                .addOnFailureListener(e -> cb.onError(e.getMessage()));
+    }
+
     public FirebaseFirestore getDb() {
         return db;
     }

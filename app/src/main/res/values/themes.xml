@@ -3,25 +3,27 @@
     <style name="Base.Theme.HealthApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">@color/turquoise</item>
+        <item name="colorPrimary">@color/pastel_primary</item>
+        <item name="colorSecondary">@color/pastel_accent</item>
         <item name="android:background">@color/very_light</item>
-
         <item name="android:textColor">@color/dark_turquoise</item>
-        <item name="android:editTextColor">@color/dark_turquoise</item>
-        <item name="android:editTextBackground">@color/light_turquoise</item>
     </style>
     <style name="Theme.HealthApplication" parent="Base.Theme.HealthApplication" />
 
     <style name="Base.Theme.HealthApplication1" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">@color/turquoise</item>
+        <item name="colorPrimary">@color/pastel_primary</item>
+        <item name="colorSecondary">@color/pastel_accent</item>
         <item name="android:background">@color/very_light</item>
-
         <item name="android:textColor">@color/dark_turquoise</item>
-        <item name="android:editTextColor">@color/dark_turquoise</item>
-        <item name="android:editTextBackground">@color/light_turquoise</item>
     </style>
     <style name="Theme.HealthApplication1" parent="Base.Theme.HealthApplication1" />
+
+    <!-- Shape overlay for circular images -->
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
 
 </resources>
