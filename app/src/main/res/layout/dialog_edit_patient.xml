@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Редактирование пациента"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/et_patient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"/>
+
+    <EditText
+        android:id="@+id/et_patient_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"/>
+
+    <EditText
+        android:id="@+id/et_patient_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Карта"/>
+
+    <EditText
+        android:id="@+id/et_patient_diseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Болезни (через запятую)"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_cancel_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Отмена"/>
+
+        <Button
+            android:id="@+id/btn_save_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Сохранить"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
